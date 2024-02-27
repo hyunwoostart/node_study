@@ -1,0 +1,9 @@
+{
+    "development" : {
+        "username": "kdt11",
+        "password": "0507",
+        "database": "kdt11",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    }
+}
