@@ -2,7 +2,11 @@
 // Module. logger.js => showLogMessage
 
 // logger.js 모듈을 불러온다.
-require('./logger');
+const logger = require('./logger');
+
+logger.showLogMessage('모듈에 대한 테스트 중입니다');
+logger.showLogMessage2('두번째 모듈에 대한 테스트 중입니다');
+console.log('Logger 모듈에 대한 소중한 값은: ' +logger.pvalue);
 
 
 
