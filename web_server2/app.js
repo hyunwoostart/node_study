@@ -9,3 +9,7 @@ app.listen(3000, () => {
 app.get()
 
 app.get()
+
+app.post()
+
+app.post();
